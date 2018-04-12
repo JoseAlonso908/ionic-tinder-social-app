@@ -1,0 +1,262 @@
+page-my-profile {
+  .contentfet{
+    // width: 90%;
+    // margin-left:5%;
+
+    // height: 100%;
+
+    
+    // margin-top:4%;
+    background: #f1f1f1;
+    color: black;
+
+    
+
+
+    .title{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .fetish{
+
+        margin-top: -25px;
+    }
+    .custom_fetish{
+      margin-top: 10px;
+
+    }
+    .fetbutton{
+        height: 25px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .cst_input{
+        background: #ffffff;
+        margin-top: 5px;
+        padding-top: 0;
+        
+    }
+
+    .plusbutton{
+        font-size: 40px;
+        margin-top: 4px;
+        background: #ffffff;
+        padding-right: 10px;
+    }
+    .fetish_scroll{
+        height: 65px;
+        margin-top:30px;
+        padding: 0;
+        .scroll-content{
+            padding: 0;
+
+        }
+    }
+    .save_btn{
+      width: 70%;
+      left: 15%;
+      margin-top: 10px;
+        
+    }
+
+    .selected_fet{
+        background: #222;
+
+    }
+    .unselected_fet{
+        background: #d91f26;
+
+    }
+
+}
+
+input::placeholder {
+  color: white;
+}
+.profile_content{
+  width:100%;
+  height:100%;
+  position:absolute
+}
+.profile_photo{
+  width: 100%;
+  position: absolute;
+  transform: scale(2.1);
+  filter: brightness(70%)!important;
+  
+  // height: 390px;
+}
+.profile_photo_cropped{
+  width: 100%;
+
+  transform: scale(1);
+  filter: brightness(70%)!important;
+  
+  // height: 390px;
+}
+.change_photo{
+  transform: scale(3.1);
+ 
+
+}
+.change_photo_cropped{
+  // width: 100%;
+  transform: scale(3.1);
+  
+}
+.change_pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 5px red;
+  overflow: hidden;
+}
+
+.img_under{
+  padding-top:0;
+  margin-top:-5px;
+  position: absolute;
+  top: 370px;
+}
+.img_under_cropped{
+  padding-top:0;
+  margin-top:-5px;
+ 
+}
+ .topp{
+     margin-top: 47%!important;
+     font-size: 30.0px!important;
+     color:white!important;
+     position:absolute;
+     z-index: 2;
+  }
+ .cen{
+    text-align: center;
+    z-index: 2;
+    margin-top:60%;
+    position:absolute;
+
+   
+  }
+  .uploadbuttonstyle{
+    width:100%;position:absolute;margin-top:70%;
+
+  }
+ .uploadp {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #b6b5b1;
+    text-align: center;
+    margin: 0 10px;
+
+   
+  } 
+  b{
+    font-size:15px;
+    line-height: 1.5;
+    color: #b6b5b1;
+    margin-left: 5px;
+
+
+  }
+  .locationstyle{
+   
+    background-color: #222222;
+    color: white;
+    border: black;
+
+  }
+
+.abouttitle{
+  font-size:20px;height:10px;color:black;text-align:center;padding:0;margin-top:10px;
+}
+.titlestyle{
+  font-size:20px;height:10px;color:white;text-align:center;padding:0;margin-top:20px;
+}
+.aboutdetail0{
+  font-size: 13px;
+  color: #000000;
+  text-align: center;width: 100%;margin-top: 0px;border: none;background: white; resize: none;
+}
+.aboutdetail{
+  font-size: 13px;color: #5f5f5f;margin-left: 20px;width: 100%;margin-top: 0px;
+}
+.aboutdetail1{
+  font-size: 13px;color: white;padding: 12px;text-align: center;width: 100%;margin-top: 10px;background: red; resize: none;border: none;  
+  min-height: 50px;
+  max-height: 900px;
+  height: auto;
+}
+.namestyle{
+  background: rgba(255,255,255,0);
+  color: white;
+  width: 90%;
+  text-align:center;
+  border-radius: 20px;
+  border: none;
+  margin:auto;
+  margin-left: 5%;
+
+}
+.namestyle1{
+  height: 37px;
+  width: 90%;
+  text-align:center;
+  background-color:rgba(255,255,255,1)!important;
+  color: black!important;
+  border-radius: 20px;
+  border: none;
+  margin:auto;
+  margin-left: 5%;
+}
+.locstyle{
+  width: 90%;
+  text-align:center;
+  border: none;
+ 
+ 
+
+}
+.rand_name{
+  position: absolute;
+  left: 6%;
+  width: 31px;
+  top: 3px;
+  
+
+}
+.done_name{
+  right: 6%;
+  position: absolute;
+  color: rgb(175, 157, 157);
+
+
+}
+.domain{
+  color:white;
+  font-size: 116%;
+}
+.doaminstyle{
+  // text-align: center!important;
+  width: 100%;  
+  padding: 13px;
+}
+.selected{
+  background: red;
+  padding: 10px;
+}
+.unselected{
+  border: 2px solid white;
+  padding:10px;
+}
+
+.trass{
+  width:50px;height: 50px;z-index:2;position: absolute;margin-top:150px;z-index: 4;
+}
+
+
+
+  
+}

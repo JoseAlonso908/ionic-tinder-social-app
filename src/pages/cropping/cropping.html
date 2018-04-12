@@ -1,0 +1,20 @@
+<!--
+  Generated template for the CroppingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<div class="wraper_modal">
+  <div class="content">
+
+    <img-cropper class="" #cropper [image]="data" [settings]="cropperSettings" (onCrop)="handleCropping($event)"></img-cropper>
+    <!-- Display the cropped image -->
+    <!-- <div *ngIf="data.image">
+
+    <img [src]="data.image" [width]="croppedWidth" [height]="croppedHeight">
+  </div> -->
+    <button *ngIf="!canSave" ion-button block color="primary" (click)="selectImage()">Load picture</button>
+ 
+    <button *ngIf="canSave" ion-button block color="primary" (click)="saveImage()">Save Image</button>
+  </div>
+</div>

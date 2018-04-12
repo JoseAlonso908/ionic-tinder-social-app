@@ -1,0 +1,29 @@
+page-write-a-review {
+    .range-bar{
+        height:7px !important;
+        border-radius: 16px !important;
+    }
+    .range-bar-active{
+         background: #2eb872 !important;
+    }
+
+.range-knob{
+    background: #2eb872 !important;
+    background-image: url('../assets/img/dot.png') !important;
+    background-size: 15px !important;
+    background-repeat:no-repeat !important; 
+    background-position:center !important;
+    height:37px !important;
+    width:37px !important;
+    margin-top: -18px !important;
+}
+.range-knob-handle{
+    top:33px !important;   
+}
+.aboutdetail0{
+    color: #7b848e;width: 100%;border: none; resize: none;background-color:#202020;
+}
+
+
+ 
+}

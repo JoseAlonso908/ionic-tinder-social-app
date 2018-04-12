@@ -1,0 +1,112 @@
+page-mydungeonlists {
+    .paid{
+        margin-top: 0;
+        padding: 0;
+
+    }
+    .dungeon_li_ti{
+        
+        height: 30px;
+        color: white;
+        // text-align: center;
+        margin: auto;
+        margin-top:20px;
+
+        img{
+            // margin: auto;
+            margin-right: 0;
+
+        }
+
+        .dungeon_li_txt{
+            // margin: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 20px;
+
+        }
+    }
+    ion-list{
+        width:100%;
+
+    }
+    .avatar{
+        overflow: hidden;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        margin-top: 8px;
+      }
+      .profile_photo{
+        width: 100%;  
+        transform: scale(2.1);
+        filter: brightness(70%)!important;
+    
+    
+      }
+      .item-ios {
+        padding-left: 0px!important; 
+       //  border-radius: 0; 
+       //  position: absolute!important; 
+       //  font-size: 1.7rem; 
+        color: #fff!important;  
+        background-color: #222222!important; 
+        -webkit-transition: background-color 0ms linear!important; 
+       transition: background-color 0ms linear!important;
+   }
+     .item-md{
+       padding-left: 0px!important; 
+       //  border-radius: 0; 
+       //  position: absolute!important; 
+       //  font-size: 1.7rem; 
+        color: #fff!important;  
+        background-color: #222222!important; 
+        -webkit-transition: background-color 0ms linear!important; 
+       transition: background-color 0ms linear!important;
+   
+     }
+     .item-inner {
+       padding-right: 0px!important;
+     }
+     .label-ios {
+       margin: 0!important;
+    }
+     .label-md{
+        margin: 0!important;
+     }
+     .red_row{
+         width:100%;
+     }
+     .red_row_r{
+        background-color:#d0021b;
+        height:50px;
+        // padding-top:12px;
+        width:100%;
+
+     }
+    
+     .content-md{
+        background-color: #202020;
+
+     }
+     .button1{
+         width:95%;
+         margin-right: 5%;
+         height: 30px;
+         margin-top:auto;
+         margin-bottom: auto;
+     }
+
+     .button2{
+        width:95%;
+        margin-left: 5%;
+        height: 30px;
+        margin-top:auto;
+        margin-bottom: auto;
+    }
+    .add_button{
+        height: 60px;
+        margin: auto;
+    }   
+
+}

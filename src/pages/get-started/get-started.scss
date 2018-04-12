@@ -1,0 +1,46 @@
+page-get-started {
+
+   
+   
+ p {
+    padding: 0 10px;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #b6b5b1;
+    text-align: center;
+
+   
+  }
+  u{
+    text-align: center;
+    color: #b6b5b1;
+    font-size: 13px;
+   
+  }
+  .back-set{
+    background-color : #1a1a1a;
+    padding: 0;
+    margin-top: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    color: #ffffff;
+  }
+  .img-height{   
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-top: 45%;
+    margin-right: auto;
+    
+  }
+   .back-nav-color{
+        padding: 0;
+        margin: 0;
+        // background-image: url('../assets/img/splash-bkg-get-started.png');
+        // background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center;     
+   
+    }
+  
+}

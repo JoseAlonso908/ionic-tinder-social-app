@@ -1,0 +1,124 @@
+page-messages {
+    .header-ios {
+        margin-top: 0px!important; 
+        height: 57px!important;
+        padding-top: 12px!important;
+    }
+    .fade-in-right-item {
+        -webkit-animation: fadeInRight 800ms;
+        -moz-animation: fadeInRight 800ms;
+        -o-animation: fadeInRight 800ms;
+        animation: fadeInRight 800ms;
+    }
+     @keyframes fivePhasesFadeIn {
+        0% {left: 30%}
+        100% {left: 0%}
+     }
+     @-webkit-keyframes fivePhasesFadeIn {
+        0% {left: 30%}
+        100% {left: 0%}
+     }
+   
+     .fivePhasesFadeIn {
+       animation-name: fivePhasesFadeIn;
+       -webkit-animation-name: fivePhasesFadeIn;
+       animation-duration: 800ms;
+       -webkit-animation-duration: 800ms;
+      
+     }
+     .space_fir_unfir{
+        margin-bottom: 50px;
+     }
+     .firstFriend_cl{
+        box-shadow:6px 6px 10px 1px rgba(0,0,0, .2);
+        border-radius: 4px;
+        ion-item .item-inner {
+            background-color:#ede4cf!important;
+            border-bottom: none!important;
+            padding-left: 0!important;
+         }
+         
+         ion-item {
+            background-color:#ede4cf!important;
+            border-bottom: none!important;
+         }
+        
+
+     }
+     .unfirst_cl{
+        ion-item .item-inner {
+            background-color:#dcd9d3!important;
+            border-bottom: none!important;
+            padding-left: 0!important;
+         }
+         
+         ion-item {
+            background-color:#dcd9d3!important;
+            border-bottom: none!important;
+         }
+
+     }
+  
+     
+
+     .itm_avatar{
+         background-color:#dcd9d3;
+         width: 70px;
+         height: 70px;
+         overflow: hidden;
+         border-radius: 3px;
+         margin-top:2px!important;
+         margin-left: -13px!important;
+         margin-bottom: 2px!important;
+         img{
+            width: 100%;  
+            transform: scale(2.1);
+         }
+     }
+     .on_offline{
+         color: red;
+         font-size: 10px;
+         float: right;
+         margin-right: 10px;
+
+
+     }
+     .empty_class{
+        width: 25px;
+        height: 20px;
+        background: rgba(0,0,0, 0);
+     }
+     .not_class{
+         width: 25px;
+         height: 20px;
+         background: red;
+         border-radius: 5px;
+         margin-right: 0!important;
+         
+         p{
+            color:white!important;
+            text-align: center;
+         }
+     }
+
+     .last_message{
+         font-size: 15px!important;
+    
+     }
+     .font_message{
+       
+        color: black!important;
+   
+    }
+     .last_content{
+     
+        overflow: hidden;
+
+    }
+    .last_time{
+       float: right;
+   }
+  
+
+
+}

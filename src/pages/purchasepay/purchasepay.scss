@@ -1,0 +1,66 @@
+page-purchasepay {
+    .dungeontitle{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .price{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .button_p{
+        text-align: center;
+        button{
+            width: 40%;
+
+        }
+    }
+    .description{
+        text-align: center;
+        width: 80%;
+        margin:auto;
+
+
+    }
+    .topbody{
+        background: #202020;
+        height: 10%;
+    }
+    .titlediv{
+        height: 20%;
+    }
+    .avatar{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+        img{
+            transform: scale(2.3);
+
+        }
+
+
+    }
+    .dungeonIcon{
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        
+    }
+    .title{
+        text-align: center;
+        font-size: 20px;
+    }
+    .bodyrow{
+        background: #d91f26;
+        margin-bottom: 0;
+        height: 78%;
+    
+
+    }
+
+}

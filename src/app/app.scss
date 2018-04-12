@@ -1,0 +1,184 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.nav-color{
+    background-color: #222222;
+    height: 7%;
+    background-image: url('../assets/img/mark.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;     
+
+}
+.head-class{
+    background-color: #222222;
+    height: initial;
+}
+.font-class{
+    border-radius: NaNpx;    
+    margin: 10px 20px;    
+    color: #ffffff;
+    font-size: 30.0px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: left;
+    
+    
+}
+.slide-image {
+    background-color : #202020;
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+
+  }
+ .button-width {
+    width: 100%;
+
+  }
+.fetwww{
+     font-size: 19px;
+     
+     text-align: center;
+     color: #d81e24;
+    
+ }
+.form-class{
+    margin:10px 10px!important;
+}
+.rect-but {
+  font-size: 12px;
+  border-radius: 0px;
+  width: 70px;
+  height: 25px;
+  border: 0.5px solid #d0011a;
+  color: #d0011a;
+  padding: 5px;
+}
+.samll-big{
+    text-transform:uppercase;
+}
+.back-img-ab{
+    position: absolute;
+    width: 100%;
+}
+.image-templ{
+    padding: 15px;
+    height: 100%;
+}
+.content-under {
+    background-color :#ffffff;    
+    color:  #202020;
+}
+.chat-back{
+    background-color: #f1f2f6!important;
+}
+.circle-image{
+   transform: scale(2.1);
+}
+
+.swiper-pagination-bullet-active {
+    background: red;
+    opacity: 1;
+}
+
+.eye-class-hide{
+  
+  float:right;
+  margin-top:10px;
+  margin-left:20px;
+
+}
+.header-ios{
+    margin-top: 20px;
+}
+.content-ios{
+    margin-top: 20px!important;
+
+}
+// ion-content{
+//     background: #202020;
+    
+// }
+.content-ios {
+    background: #202020;
+  padding-top: 10px;
+    margin-top: 0px;
+}
+ .notificationCountBack{
+      
+        background: red;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -18px;
+        text-align: center;
+        padding-top: 5px;
+        color: white;
+    }
+    .notificationAvatar{
+       z-index:4;
+       margin-left:70%;
+       margin-top:12%;
+       position: absolute;
+       
+    }
+    .messagenotificationAvatar{
+        z-index:4;
+        position: absolute;
+        top:15px;
+        left:10px;
+
+    }
+    .onlinestate{
+        border: 2px solid white;
+        background: green;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -20px;
+
+
+    }
+     .offlinestate{
+        border: 2px solid white;
+        background: #b8c2c7;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -20px;
+
+
+    }
+    .searchbar-md .searchbar-input {
+        height: 30px;
+        padding: 6px 52px;
+        margin-top: 5px;
+        color: #141414!important;
+        background-color: #2a2929;
+    }
+    .toolbar-md {
+        padding: 4px;
+        min-height: 0px;
+    }
+

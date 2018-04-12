@@ -1,0 +1,40 @@
+page-menu-side {
+    .search-class{
+        margin-top: 5%;
+    }
+    .button-opa{
+       // opacity: 0;
+        width: 100%;
+        margin-left: 19%;
+        margin-top: 0%;
+    }
+     .button-opa1{
+       // opacity: 0;
+        width: 50%;
+        margin-left: 19%;
+        margin-top: 0;
+        margin-bottom:0;
+
+
+    }
+    .profile-button{
+        margin-top: 2%!important;
+    }
+    
+    // .messages-button{
+    //     margin-top: 65%;
+    // }
+    // .button-height{
+    //     height: 120%;
+    // }
+    .back-image-set{
+        background-color: #222222;
+        width: 100%;
+        background-image: url('../assets/img/menuside.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;     
+   
+    }
+
+}

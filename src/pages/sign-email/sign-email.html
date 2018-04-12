@@ -1,0 +1,79 @@
+<!--
+  Generated template for the SignEmailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="nav-color">
+</ion-header>
+
+
+<ion-content class="slide-image">
+  <p class="font-class">Log in</p>
+  <ion-row class="form-class">
+    <ion-row style="border-bottom:1px solid white;width:100%;">
+      <ion-input type="email" placeholder="Email" [(ngModel)]="emailinput" (ionChange)="email_validate()"></ion-input>
+      <ion-icon *ngIf="check_email" color="secondary" style="float:right; width:8%; padding-top: 10px;" name="md-checkmark-circle"></ion-icon>
+
+
+    </ion-row>
+
+
+    <ion-row style="border-bottom:1px solid white;width:100%;">
+      <ion-input type={{pass_input_mode}} placeholder="Password" [(ngModel)]="password" (ionChange)="pass_validate()"> </ion-input>
+      <ion-icon name="md-eye" color={{icon_color}} class="eye-class-hide" (click)="val_pass_showing()" id="eye-state"></ion-icon>
+      <ion-icon *ngIf="check_pass" color="secondary" style="float:right; width:8%; padding-top: 10px;" name="md-checkmark-circle"></ion-icon>
+
+    </ion-row>
+
+  </ion-row>
+  <p style="height:15px;"></p>
+  <ion-row class="form-class">
+    <ion-col col-6>
+      <ion-row>
+        <ion-checkbox [(ngModel)]="check_remember"></ion-checkbox>
+        <p style="font-size:13px;">Remember me</p>
+      </ion-row>
+    </ion-col>
+    <ion-col col-6>
+      <p style="color:red;margin-right:0px;float:right;" (click)="ForgotPassFire()">Forgot Password</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="form-class">
+    <ion-col col-12 style="padding:0;margin:0;">
+      <button ion-button color="danger" class="button-width" (click)="SignInFE()">
+        <ion-icon name="md-mail-open"></ion-icon>&nbsp;&nbsp; Login</button>
+    </ion-col>
+    <ion-row *ngIf="incorrect_state">
+      <ion-col col-12 style="width:120%;">
+        <ion-row style="color:red;font-size:20px;">
+          <ion-col col-1>
+            <ion-icon name="ios-alert" style="margin-top:5px"></ion-icon>
+          </ion-col>
+          <ion-col col-10>
+            <b style="color:red;">{{wrongtext}}</b>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <p *ngIf="!incorrect_state" style="margin:auto;">Not a member? Signup</p>
+    <ion-col col-12 style="padding:0;margin:0;">
+      <button ion-button color="danger" class="button-width" (click)="SignUpE()">
+        <ion-icon name="md-person-add"></ion-icon>&nbsp;&nbsp; Create an account</button>
+    </ion-col>
+
+  </ion-row>
+
+  <ion-row style="text-align:center;">
+
+    <!-- <button ion-button large clear icon-end (click)="SignUpE()" style="margin:auto;"><p style="color:red;margin-right:0px;">Creat an account  <ion-icon name="ios-arrow-forward"></ion-icon></p></button> -->
+  </ion-row>
+
+
+</ion-content>
+<ion-footer>
+  <h2 class="fetwww">
+    <strong>SPANKRR</strong>
+  </h2>
+</ion-footer>
